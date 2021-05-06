@@ -1,1 +1,1 @@
-thurian.github.io/website
+thurian.github.io/
