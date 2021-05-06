@@ -1,0 +1,74 @@
+body {
+    background-image: url('images\background-image.jpg');
+    background-repeat: no-repeat;
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    font-size: 1em;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    max-width: 50%;
+    z-index: -1;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-spread {
+    justify-content: flex-start;
+}
+
+.flex-center {
+    justify-content: center;
+    width: 90%;
+}
+
+footer {
+    position: absolute;
+    left: 1%;
+    top: 96%;
+    color: greenyellow;
+}
+
+.subtitle {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    font-size: x-large;
+    z-index: -1;
+}
+
+.about {
+    font-size: 2vw;
+}
+
+.text {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    width: 70%;
+    padding: 5%;
+    justify-self: center;
+    background-color: black;
+    opacity: 70%;
+    color: white;
+    z-index: -1;
+    
+}
+
+.font {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
